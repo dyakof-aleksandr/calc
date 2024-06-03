@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	background-color: #fff;
+	color: #000;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input:focus {
+	outline: none;
+}
+
+/* fields */
+.input, .select {
+	font: inherit;
+	border: none;
+	color: #000;
+	height: 32px;
+	border-radius: 3px;
+	
+}
+.input {
+	padding: 0;
+	text-align: center;
+	width: 40px;
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, .2);
+}
+.select {
+	padding: 0 10px;
+	appearance: none;
+	cursor: pointer;
+}
+
+/* btn */
+.btn{display:inline-flex;align-items:center;justify-content:center;font:inherit;border:none;padding:8px 10px;border-radius:3px;color:#fff;cursor:pointer}
+.btn_theme_danger{background-color:#dc3545}
+.btn_theme_success{background-color:#198754}
+
+/* calc */
+.calc {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: 24px;
+}
+.calc__result {
+	min-height: 100px;
+	overflow: auto;
+	background-color: #eee;
+	border: none;
+	color: #000;
+	padding: 5px 10px;
+	border-radius: 3px;
+	box-shadow: inset 1px 1px 2px rgba(0,0,0,.1);
+	white-space: pre;
+}
+.calc__actions {
+	margin-top: 10px;
+	display: flex;
+	column-gap: 5px;
+}
+.calc__copy {
+	flex-grow: 1;
+}
+
+/* product */
+.product {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 5px 5px 5px 10px;
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+}
+.product * {
+	user-select: none;
+}
+.product:not(:last-child) {
+	margin-bottom: 5px;
+}
+.product[data-theme] {
+	--product-actions-bg: #fff;
+	background-color: #09e;
+	border-color: #09e;
+	color: #fff;
+}
+.product[data-theme]::before {
+	font-size: 30px;
+	line-height: 1;
+}
+.product[data-theme="purchase"]::before {
+	content: '💵';
+}
+.product[data-theme="gift"]::before {
+	content: '🎁';
+}
+.product__name {
+	margin: -5px 0 -5px -10px;
+	padding-left: 10px;
+	flex-grow: 1;
+	cursor: pointer;
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+}
+.product__options {
+	min-width: 0;
+}
+.product__options,
+.product__quantity {
+	background-color: var(--product-actions-bg, #f1f1f1);
+}
+@media (min-width: 768px) {
+	.calc {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
