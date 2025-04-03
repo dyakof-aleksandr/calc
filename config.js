@@ -21,11 +21,15 @@ const calcData = [
 		options: [
 			{
 				label: "800 мм",
-				price: 690
+				price: 695
 			},
 			{
 				label: "1000 мм",
-				price: 760
+				price: 785
+			},
+			{
+				label: "с печью",
+				price: 1795
 			}
 		]
 	},
@@ -36,11 +40,11 @@ const calcData = [
 		options: [
 			{
 				label: "800 мм",
-				price: 930
+				price: 980
 			},
 			{
 				label: "1000 мм",
-				price: 990
+				price: 1045
 			}
 		]
 	},
