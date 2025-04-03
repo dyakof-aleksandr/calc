@@ -175,4 +175,10 @@ const calcData = [
 		position: 14,
 		price: 40
 	},
+	{
+		name: "Щипцы для гриля",
+		quantity: 1,
+		position: 15,
+		price: 70
+	},
 ]
