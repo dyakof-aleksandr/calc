@@ -42,6 +42,10 @@ const calcData = [
 			{
 				label: "800 с навесом и печью",
 				price: 2370
+			},
+			{
+				label: "Мини-комплекс",
+				price: 3380
 			}
 		]
 	},
@@ -57,6 +61,18 @@ const calcData = [
 			{
 				label: "1000 мм",
 				price: 1045
+			},
+			{
+				label: "800 с навесом",
+				price: 1445
+			},
+			{
+				label: "1000 с навесом",
+				price: 1495
+			},
+			{
+				label: "800 с навесом и печью",
+				price: 2520
 			}
 		]
 	},
@@ -66,38 +82,12 @@ const calcData = [
 		position: 2,
 		options: [
 			{
-				label: "Барбекю 1000",
-				price: 1490
-			},
-			{
-				label: "Барбекю 800",
-				price: 1430
-			},
-			{
 				label: "Модульный",
 				price: 640
 			},
 			{
 				label: "Модульный Лофт",
 				price: 785
-			},
-			{
-				label: "Бабрекю Лофт 1000",
-				price: 1495
-			},
-			{
-				label: "Барбекю Лофт 800",
-				price: 1445
-			}
-			,
-			{
-				label: "Барбекю с печью",
-				price: 2370
-			}
-			,
-			{
-				label: "Барбекю Лофт с печью",
-				price: 2520
 			}
 		]
 	},
