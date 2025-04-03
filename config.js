@@ -63,11 +63,11 @@ const calcData = [
 			},
 			{
 				label: "Модульный",
-				price: 580
+				price: 640
 			},
 			{
 				label: "Модульный Лофт",
-				price: 710
+				price: 785
 			},
 			{
 				label: "Бабрекю Лофт 1000",
