@@ -55,11 +55,11 @@ const calcData = [
 		options: [
 			{
 				label: "Барбекю 1000",
-				price: 1410
+				price: 1490
 			},
 			{
 				label: "Барбекю 800",
-				price: 1350
+				price: 1430
 			},
 			{
 				label: "Модульный",
@@ -71,21 +71,21 @@ const calcData = [
 			},
 			{
 				label: "Бабрекю Лофт 1000",
-				price: 1410
+				price: 1495
 			},
 			{
 				label: "Барбекю Лофт 800",
-				price: 1350
+				price: 1445
 			}
 			,
 			{
 				label: "Барбекю с печью",
-				price: 2250
+				price: 2370
 			}
 			,
 			{
 				label: "Барбекю Лофт с печью",
-				price: 2400
+				price: 2520
 			}
 		]
 	},
@@ -93,13 +93,13 @@ const calcData = [
 		name: "Решетка-гриль",
 		quantity: 1,
 		position: 3,
-		price: 80
+		price: 90
 	},
 	{
 		name: "Подставка под казан",
 		quantity: 1,
 		position: 4,
-		price: 60
+		price: 75
 	},
 	{
 		name: "Доска",
@@ -111,24 +111,13 @@ const calcData = [
 		name: "Кочерга + совок",
 		quantity: 1,
 		position: 6,
-		price: 37
+		price: 40
 	},
 	{
 		name: "Разделитель",
 		quantity: 1,
 		position: 7,
-		price: 20
-	},
-	{
-		name: "Котелок",
-		quantity: 1,
-		position: 10,
-		options: [
-			{
-				label: "6л",
-				price: 50
-			}
-		]
+		price: 25
 	},
 	{
 		name: "Казан",
@@ -156,11 +145,7 @@ const calcData = [
 		options: [
 			{
 				label: "42см",
-				price: 90
-			},
-			{
-				label: "52см",
-				price: 125
+				price: 100
 			}
 		]
 	},
