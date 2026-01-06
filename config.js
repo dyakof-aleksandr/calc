@@ -43,10 +43,29 @@ const calcData = {
 				{
 					label: "800 с навесом и печью",
 					price: 2370
+				}
+			]
+		},
+		{
+			name: "Комплекс",
+			quantity: 1,
+			position: 2,
+			options: [
+				{
+					label: "Мини 800",
+					price: 3380
 				},
 				{
-					label: "Мини-комплекс",
-					price: 3380
+					label: "Макси 1000",
+					price: 3700
+				},
+				{
+					label: "Мини с мойкой",
+					price: 4200
+				},
+				{
+					label: "Мини 1000 без печи",
+					price: 2900
 				}
 			]
 		},
