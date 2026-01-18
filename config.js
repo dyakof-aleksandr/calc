@@ -204,6 +204,9 @@ const calcData = {
 	],
 	services: [
 		{
+			name: "гравировка"
+		},
+		{
 			name: "доставка"
 		},
 		{
