@@ -112,6 +112,18 @@ const calcData = {
 			]
 		},
 		{
+			name: "Кострище",
+			quantity: 1,
+			position: 3,
+			price: 430
+		},
+		{
+			name: "Коптильня",
+			quantity: 1,
+			position: 3,
+			price: 340
+		},
+		{
 			name: "Решетка-гриль",
 			quantity: 1,
 			position: 3,
