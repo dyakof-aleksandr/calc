@@ -114,13 +114,13 @@ const calcData = {
 		{
 			name: "Кострище",
 			quantity: 1,
-			position: 3,
+			position: 2,
 			price: 430
 		},
 		{
 			name: "Коптильня",
 			quantity: 1,
-			position: 3,
+			position: 2,
 			price: 340
 		},
 		{
